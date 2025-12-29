@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Private Invitation</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Enter Password to View Invitation</h2>
+    <input type="password" id="passwordInput" placeholder="Enter password">
+    <button onclick="checkPassword()">Submit</button>
+    <p id="errorMessage"></p>
+  </div>
+
+  <div id="invitationContent" class="hidden">
+    <h1>You're Invited!</h1>
+    <p>Dear Guest,<br>
+    You are warmly invited to our special event!<br><br>
+    📅 Date: 1st January 2026<br>
+    🕒 Time: 7:00 PM<br>
+    📍 Venue: Grand Palace, Hyderabad<br><br>
+    We look forward to seeing you there!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
